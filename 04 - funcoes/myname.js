@@ -1,10 +1,10 @@
 function ecreverNome(nome) {
-       console.log('Meu nome é ' + nome);
-  }
+    console.log('Meu nome é ' + nome);
+}
 
- 
 
-function verificarIdade(idade){
+
+function verificarIdade(idade) {
     if (idade >= 18) {
         console.log(idade + ' Anos maior de idade');
     } else {

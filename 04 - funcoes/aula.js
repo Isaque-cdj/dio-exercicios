@@ -1,4 +1,4 @@
-function quadrado(valor){
+function quadrado(valor) {
     return valor * valor;
 }
 
