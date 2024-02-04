@@ -1,18 +1,40 @@
+class Pessoa {
+    nome;
+    idade;
+    anoDeNasciento;
 
-const pessoa = {
-    nome: 'Isaque Coelho',
-    idade: 22,
-
-    descrever: function () {
-       
+    constructor(nome, idade) {
+        this.nome = nome;
+        this.idade = idade;
+        this.anoDeNasciento = 2024 - idade;
+      }
+    descrever() {
         console.log(`Nome: ${this.nome}. \nIdade: ${this.idade}`);
-
     }
 
-};
+}
 
-pessoa.nome = 'Fulano';
-pessoa.idade = 30;
 
-pessoa.descrever();
+const isaque = new Pessoa('Isaque', 22);
+
+const fulano = new Pessoa('fulano', 34);
+
+console.log(isaque);
+
+
+
+
+
+
+
+
+// const pessoa = {
+//     nome: 'Isaque Coelho',
+//     idade: 22,
+
+//     descrever: function () {
+//         console.log(`Nome: ${this.nome}. \nIdade: ${this.idade}`);
+//     }
+// };
+
 
